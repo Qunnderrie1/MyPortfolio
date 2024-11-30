@@ -17,7 +17,7 @@ const Contact = () => {
     if (userName && userEmail && userMessage) {
       axios
         .post(
-          "https://myportfolio-tbi2.onrender.com/",
+          "https://myportfolio-1-ssqe.onrender.com",
           {
             name: userName,
             email: userEmail,
