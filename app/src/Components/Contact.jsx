@@ -54,6 +54,8 @@ const Contact = () => {
     setTimeout(() => {
       setConfirmMessage("Send Message");
     }, 3000);
+
+    console.log("Sending Message.......");
   };
   return (
     <div id="contact" className=" mt-20 h-fit mx-auto ">
