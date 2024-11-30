@@ -22,6 +22,9 @@ const Contact = () => {
   //   Contact Form Function
   const handleSubmit = (e) => {
     e.preventDefault();
+  };
+
+  const handleMessage = () => {
     if (userName && userEmail && userMessage) {
       axios
         .post(
@@ -66,7 +69,7 @@ const Contact = () => {
           }`}
         >
           <h1 className="text-white text-center text-[34px] font-bold ">
-            STAY IN TOUCH
+            STAY IN <span className="text-[#f2fb00]">TOUCH</span>
           </h1>
           <p className="text-white text-center font-light">
             Fill out the form below
@@ -108,7 +111,10 @@ const Contact = () => {
                 placeholder="Enter your messager here..."
               />
             </div>
-            <button className=" w-100 bg-[#f2fb00] h-[40px] font-bold">
+            <button
+              onClick={handleMessage}
+              className=" w-100 bg-[#f2fb00] h-[40px] font-bold"
+            >
               {confirmMessage}
             </button>
           </form>
