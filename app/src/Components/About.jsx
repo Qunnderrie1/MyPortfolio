@@ -1,20 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import Divider from "./Divider";
-import { useInView } from "react-intersection-observer";
+import { InView } from "react-intersection-observer";
 
 const About = () => {
-  const { ref, inView } = useInView();
+  const [hasTriggered, setHasTriggered] = useState(false);
+
+  const handleInView = (inView) => {
+    if (inView) {
+      setHasTriggered(true);
+    }
+  };
+
   return (
     <div id="about" className="bg-black mt-20 h-fit pt-6">
       <Divider />
-      <div ref={ref} className="container max-lg:w-100  ">
-        {inView ? (
-          <div className="flex animate-[moveAboutText_1s] mt-4 max-lg:flex-col max-lg:p-0">
-            <div className="container mx-auto">
-              <h1 className="text-white text-center text-3xl font-bold ">
-                About Me
-              </h1>
-              <div className="w-[150px] h-0.5 flex justify-center m-auto bg-[#f2fb00]"></div>
+
+      <div className="flex flex-col">
+        <h1 className="text-white text-center text-[40px] font-bold">
+          ABOUT <span className="text-[#f2fb00]">ME</span>
+        </h1>
+        <p className="m-auto text-white text-[18px] font-light mt-2">
+          Software Engineer
+        </p>
+      </div>
+
+      <InView onChange={(inView) => handleInView(inView)}>
+        <div className="container max-lg:w-100  ">
+          <div
+            className={`flex mt-4 max-lg:flex-col ${
+              hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
+            } `}
+          >
+            <div className="container flex flex-col mx-auto">
               <p className="text-white mt-0 text-xl text-center leading-10 py-10">
                 Welcome to my portfolio! I'm Qunnderrie, a Full Stack Web
                 Developer from Columbus, Georgia. After earning my Full Stack
@@ -30,10 +47,8 @@ const About = () => {
               </p>
             </div>
           </div>
-        ) : (
-          <div></div>
-        )}
-      </div>
+        </div>
+      </InView>
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Divider from "./Divider";
 import axios from "axios";
-import { useInView } from "react-intersection-observer";
+import { InView } from "react-intersection-observer";
+
 const Contact = () => {
-  const { ref, inView } = useInView();
+  const [hasTriggered, setHasTriggered] = useState(false);
   //   Declare variables to get the user infomation
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
@@ -11,6 +12,12 @@ const Contact = () => {
   const [userSubject, setUserSubject] = useState("");
 
   const [confirmMessage, setConfirmMessage] = useState("Send Message");
+
+  const handleContactView = (inView) => {
+    if (inView) {
+      setHasTriggered(true);
+    }
+  };
 
   //   Contact Form Function
   const handleSubmit = (e) => {
@@ -46,15 +53,24 @@ const Contact = () => {
     }, 3000);
   };
   return (
-    <div ref={ref} id="contact" className=" mt-20 h-fit mx-auto ">
+    <div id="contact" className=" mt-20 h-fit mx-auto ">
       <Divider />
 
-      {inView ? (
-        <div className="animate-[moveContactBox_1s]">
-          <h1 className="text-white text-center text-3xl font-bold ">
-            Let's Chat!
+      <InView
+        onChange={(inView) => handleContactView(inView)}
+        triggerOnce={true}
+      >
+        <div
+          className={`${
+            hasTriggered ? "animate-[moveContactBox_1s]" : "animate-none"
+          }`}
+        >
+          <h1 className="text-white text-center text-[34px] font-bold ">
+            STAY IN TOUCH
           </h1>
-          <div className="w-[150px] h-0.5 flex justify-center m-auto bg-[#f2fb00]"></div>
+          <p className="text-white text-center font-light">
+            Fill out the form below
+          </p>
           <form
             action="POST"
             onSubmit={handleSubmit}
@@ -97,9 +113,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-      ) : (
-        <div></div>
-      )}
+      </InView>
     </div>
   );
 };
