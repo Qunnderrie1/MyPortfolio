@@ -6,7 +6,6 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Portfolio from "./Components/Portfolio";
 import { useSelector, useDispatch } from "react-redux";
-import { openNav, closeNav } from "./Slices/NavOpenSlice";
 
 function App() {
   const isOpen = useSelector((state) => state.isOpen.value);
