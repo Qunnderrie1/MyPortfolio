@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Divider from "./Divider";
 import axios from "axios";
 
@@ -35,6 +35,14 @@ const Contact = () => {
     }
 
     setConfirmMessage("Your Message Been Sent!");
+    setUserEmail("");
+    setUserName("");
+    setUserSubject("");
+    setUserMessage("");
+
+    setTimeout(() => {
+      setConfirmMessage("Send Message");
+    }, 3000);
   };
   return (
     <div id="contact" className=" mt-20 h-fit mx-auto ">
