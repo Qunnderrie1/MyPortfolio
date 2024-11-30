@@ -9,6 +9,8 @@ const Contact = () => {
   const [userMessage, setUserMessage] = useState("");
   const [userSubject, setUserSubject] = useState("");
 
+  const [confirmMessage, setConfirmMessage] = useState("Send Message");
+
   //   Contact Form Function
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,6 +33,8 @@ const Contact = () => {
     } else {
       alert("Please enter in all inputs!");
     }
+
+    setConfirmMessage("Your Message Been Sent!");
   };
   return (
     <div id="contact" className=" mt-20 h-fit mx-auto ">
@@ -77,7 +81,7 @@ const Contact = () => {
           />
         </div>
         <button className=" w-100 bg-[#f2fb00] h-[40px] font-bold">
-          Send Message
+          {confirmMessage}
         </button>
       </form>
     </div>

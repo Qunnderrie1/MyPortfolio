@@ -41,7 +41,7 @@ app.post("/", (req, res) => {
   });
 });
 
-const PORT = process.env.APT_URL;
+const PORT = process.env.APT_URL || 3001;
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
