@@ -15,7 +15,7 @@ const Contact = () => {
     if (userName && userEmail && userMessage) {
       axios
         .post(
-          "http://localhost:3001",
+          "https://myportfolio-tbi2.onrender.com/",
           {
             name: userName,
             email: userEmail,
@@ -76,7 +76,7 @@ const Contact = () => {
             placeholder="Enter your messager here..."
           />
         </div>
-        <button className="w-100 bg-[#f2fb00] h-[40px] font-bold">
+        <button className=" w-100 bg-[#f2fb00] h-[40px] font-bold">
           Send Message
         </button>
       </form>
