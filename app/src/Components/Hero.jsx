@@ -23,7 +23,7 @@ const Hero = () => {
             with Code.
           </p>
           <div className="flex  gap-10 mt-14 max-xl:flex-col max-lg:py-4 xl:absolute  ">
-            <a href="/Qunnderrie_Software_Engineer_Resume.pdf" download>
+            <a href="/Q_Snelling_Software_Engineer_Resume.pdf" download>
               <button className="bg-[#f2fb00] animate-[moveResumeBtn_2s] rounded font-bold py-2 max-lg:w-40 m-auto sm:w-40 ">
                 RESUME CV <FontAwesomeIcon icon={faArrowRight} />
               </button>
