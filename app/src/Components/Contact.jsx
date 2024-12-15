@@ -114,7 +114,7 @@ const Contact = () => {
               />
             </div>
             <button
-              onClick={() => handleMessage}
+              onClick={handleMessage}
               className=" w-100 bg-[#f2fb00] h-[40px] font-bold"
             >
               {confirmMessage}

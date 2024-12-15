@@ -2,6 +2,8 @@ import React from "react";
 import MobileNavbar from "./MobileNavbar";
 import { useSelector, useDispatch } from "react-redux";
 import { openNav, closeNav } from "../Slices/NavOpenSlice";
+import gitHubImage from "../Images/github.png";
+import linkedinImage from "../Images/linkedin.png";
 
 const Navbar = () => {
   const body = document.getElementById("body");
