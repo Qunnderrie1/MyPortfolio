@@ -33,51 +33,88 @@ const Portfolio = () => {
               hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
             }`}
           >
-            <a href="https://qunnderrie1.github.io/MortgageCalculatorApp/">
-              <div className="card border-none w-[300px]">
-                <img
-                  className="w-100 h-[275px] img-fluid"
-                  src={mortgageCalculator}
-                  alt="mortgage Calculator"
-                />
-                <div className="card-title">
-                  <p className="mt-8 text-xl text-center font-bold">
-                    Mortgage Calculator App
+            <div className="card border-none w-[300px] h-fit">
+              <img
+                className="w-100 h-[300px] img-fluid"
+                src={mortgageCalculator}
+                alt="mortgage Calculator"
+              />
+              <div className="card-title">
+                <p className="mt-8 text-[20px] text-center font-semibold">
+                  Mortgage Calculator App
+                </p>
+                <div className="card-body text-center">
+                  <p className="text-[16px] my-2">
+                    A mortgage payment calculator that calculates and displays
+                    monthly payments based on user Inputs, including loan
+                    amount, interest rate, and term length.
                   </p>
-                  <div className="card-body"></div>
+                </div>
+                <div className="card-footer flex justify-center">
+                  <a
+                    className="font-bold p-2"
+                    href="https://qunnderrie1.github.io/MortgageCalculatorApp/"
+                  >
+                    View Project
+                  </a>
                 </div>
               </div>
-            </a>
-            <a href="https://fullstacktodoapp-lqgy.onrender.com/">
-              <div className="card border-none w-[300px]">
-                <img
-                  className="w-100 h-[275px] img-fluid"
-                  src={todoListImage}
-                  alt="todolist app"
-                />
-                <div className="card-title">
-                  <p className="mt-8 text-xl text-center font-bold">
-                    Full Stack Todo List App
+            </div>
+            <div className="card border-none w-[300px] h-fit">
+              <img
+                className="w-100 h-[300px] img-fluid"
+                src={todoListImage}
+                alt="todolist app"
+              />
+              <div className="card-title">
+                <p className="mt-8 text-[20px] text-center font-semibold">
+                  Full Stack Todo List App
+                </p>
+
+                <div className="card-body text-center">
+                  <p className="text-[16px] my-2">
+                    A Simple to-do list web app that allows users to sign up,
+                    log in, and manage their own tasks efficiently. Users can
+                    create, and delete tasks to stay organized.
                   </p>
-                  <div className="card-body"></div>
+                </div>
+                <div className="card-footer flex justify-center">
+                  <a
+                    className="font-bold p-2"
+                    href="https://fullstacktodoapp-lqgy.onrender.com/"
+                  >
+                    View Project
+                  </a>
                 </div>
               </div>
-            </a>
-            <a href="https://fullstacktodoapp-lqgy.onrender.com/">
-              <div className="card border-none w-[300px]">
-                <img
-                  className="w-100 h-[275px] img-fluid"
-                  src={portfolio}
-                  alt="portfolio"
-                />
-                <div className="card-title">
-                  <p className="mt-8 text-xl text-center font-bold">
-                    Portfolio
+            </div>
+            <div className="card border-none w-[300px] h-fit">
+              <img
+                className="w-100 h-[300px] img-fluid"
+                src={portfolio}
+                alt="portfolio"
+              />
+              <div className="card-title">
+                <p className="mt-8 text-[20px] text-center font-semibold">
+                  Portfolio
+                </p>
+                <div className="card-body text-center">
+                  <p className="text-[16px] my-2">
+                    A portfolio website to showcase my skills, projects, and
+                    background, providing an overview of my expertise an
+                    personal story.
                   </p>
-                  <div className="card-body"></div>
+                </div>
+                <div className="card-footer flex justify-center">
+                  <a
+                    className="font-bold p-2"
+                    href="https://myportfolio-tbi2.onrender.com/"
+                  >
+                    View Project
+                  </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </InView>
       </div>
