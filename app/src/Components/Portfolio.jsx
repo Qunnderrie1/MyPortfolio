@@ -63,34 +63,6 @@ const Portfolio = () => {
             <div className="card border-none w-[300px] h-fit">
               <img
                 className="w-100 h-[300px] img-fluid"
-                src={todoListImage}
-                alt="todolist app"
-              />
-              <div className="card-title">
-                <p className="mt-8 text-[20px] text-center font-semibold">
-                  Full Stack Todo List App
-                </p>
-
-                <div className="card-body text-center">
-                  <p className="text-[16px] my-2">
-                    A Simple to-do list web app that allows users to sign up,
-                    log in, and manage their own tasks efficiently. Users can
-                    create, and delete tasks to stay organized.
-                  </p>
-                </div>
-                <div className="card-footer flex justify-center">
-                  <a
-                    className="font-bold p-2"
-                    href="https://fullstacktodoapp-lqgy.onrender.com/"
-                  >
-                    View Project
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="card border-none w-[300px] h-fit">
-              <img
-                className="w-100 h-[300px] img-fluid"
                 src={portfolio}
                 alt="portfolio"
               />
