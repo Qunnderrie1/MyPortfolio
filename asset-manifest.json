@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.4670838e.css",
-    "main.js": "/MyPortfolio/static/js/main.42d76b03.js",
+    "main.css": "/MyPortfolio/static/css/main.1e2c9794.css",
+    "main.js": "/MyPortfolio/static/js/main.537baa6f.js",
     "static/media/mortgageCalculator.png": "/MyPortfolio/static/media/mortgageCalculator.6ae9988b2b81f7bcfb47.png",
     "static/media/portfolio.png": "/MyPortfolio/static/media/portfolio.c90f9cf62b36149c709f.png",
     "static/media/Rockets.png": "/MyPortfolio/static/media/Rockets.a761a250024f5ee11adb.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.4670838e.css.map": "/MyPortfolio/static/css/main.4670838e.css.map",
-    "main.42d76b03.js.map": "/MyPortfolio/static/js/main.42d76b03.js.map"
+    "main.1e2c9794.css.map": "/MyPortfolio/static/css/main.1e2c9794.css.map",
+    "main.537baa6f.js.map": "/MyPortfolio/static/js/main.537baa6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4670838e.css",
-    "static/js/main.42d76b03.js"
+    "static/css/main.1e2c9794.css",
+    "static/js/main.537baa6f.js"
   ]
 }
