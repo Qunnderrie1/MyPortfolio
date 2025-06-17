@@ -7,6 +7,7 @@
   0% {
     transform: translateX(-200px);
   }
+
   100% {
     transform: translateX(0px);
   }
@@ -17,6 +18,7 @@
     transform: translateX(-10px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 100;
@@ -28,6 +30,7 @@
     transform: translateY(-20px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0px);
     opacity: 1;
@@ -39,6 +42,7 @@
     transform: translateY(20px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
@@ -50,6 +54,7 @@
     transform: translateX(-20px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
@@ -61,6 +66,7 @@
     transform: translateX(-200px);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
@@ -72,6 +78,19 @@
     transform: translateY(200px);
     opacity: 0;
   }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveSkillsSection {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
