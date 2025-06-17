@@ -13,14 +13,14 @@ const Hero = () => {
           <p className="animate-[moveHeroText_2s] lg:text-left text-xl text-black bg-[#f2fb00] py-2 w-fit m-auto px-4 rounded-br-lg rounded-tl-lg  ">
             Hello! I am Qunnderrie
           </p>
-          <h1 className="animate-[moveHeroText_2s] text-8xl text-white font-bold max-xl:text-6xl">
+          <h1 className="animate-[moveHeroText_2s] text-5xl text-white font-bold max-xl:text-6xl">
             A Full Stack{" "}WEB
-            <span className="text-[#f2fb00] block max-xl:text-6xl">
+            <span className="text-[#f2fb00] block max-xl:text-5xl">
               DEVELOPER
             </span>
           </h1>
           <div className="flex justify-center lg:justify-start lg:px-0  gap-10 mt-14 items-center  ">
-            <a href="/Qunnderrie_Software_Engineer.pdf" download>
+            <a href="./Qunnderrie_Software_Engineer.pdf" download>
               <button className="text-[#f2fb00] animate-[moveResumeBtn_2s]   py-1 max-lg:w-40 m-auto text-[18px] border-b-[1.5px] border-b-[#f2fb00] ">
                 Resume CV <FontAwesomeIcon icon={faSquareArrowUpRight} />
               </button>

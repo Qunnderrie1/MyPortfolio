@@ -12,11 +12,11 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="bg-black mt-20 h-fit pt-6">
+    <div id="about" className="bg-black mt-10 h-fit pt-6">
       <Divider />
 
       <div className="flex flex-col">
-        <h1 className="text-white text-center text-[20px] font-light">
+        <h1 className="text-white text-center text-[20px] font-light font-sans">
           About Me
         </h1>
         <p className="m-auto text-white text-[18px] mt-2 font-semibold ">
