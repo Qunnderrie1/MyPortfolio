@@ -1,7 +1,7 @@
 import React from "react";
 import rocket from "../Images/Rockets.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faArrowUpRightFromSquare, faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
 import gitHubImage from "../Images/github.png";
 import linkedinImage from "../Images/linkedin.png";
 const Hero = () => {
@@ -10,30 +10,26 @@ const Hero = () => {
       <div className="absolute left-0 w-0.5 h-60 bg-[#f2fb00] max-xl:hidden"></div>
       <div className="flex justify-between max-sm:text-center max-xl:justify-center ">
         <div className="text-left px-10 max-xl:text-center max-xl:px-0">
-          <p className="animate-[moveHeroText_2s] text-left text-xl text-white max-xl:text-center">
-            Hello!
+          <p className="animate-[moveHeroText_2s] lg:text-left text-xl text-black bg-[#f2fb00] py-2 w-fit m-auto px-4 rounded-br-lg rounded-tl-lg  ">
+            Hello! I am Qunnderrie
           </p>
           <h1 className="animate-[moveHeroText_2s] text-8xl text-white font-bold max-xl:text-6xl">
-            I AM A{" "}
+            A Full Stack{" "}WEB
             <span className="text-[#f2fb00] block max-xl:text-6xl">
-              WEB DEVELOPER
+              DEVELOPER
             </span>
           </h1>
-          <p className="animate-[moveHeroText_3s] text-white text-xl mt-2 max-md:text-base  max-sm:text-base">
-            Passionate Creator and Problem Solver | Turning ideas into Reality
-            with Code.
-          </p>
-          <div className="flex  gap-10 mt-14 max-xl:flex-col max-lg:py-4  ">
-            <a href="/Qunnderrie_JuniorDeveloper.pdf" download>
-              <button className="bg-[#f2fb00] animate-[moveResumeBtn_2s] rounded font-bold py-2 max-lg:w-40 m-auto sm:w-40 ">
-                RESUME CV <FontAwesomeIcon icon={faArrowRight} />
+          <div className="flex justify-center lg:justify-start lg:px-0  gap-10 mt-14 items-center  ">
+            <a href="/Qunnderrie_Software_Engineer.pdf" download>
+              <button className="text-[#f2fb00] animate-[moveResumeBtn_2s]   py-1 max-lg:w-40 m-auto text-[18px] border-b-[1.5px] border-b-[#f2fb00] ">
+                Resume CV <FontAwesomeIcon icon={faSquareArrowUpRight} />
               </button>
             </a>
             <a
               href="#portfolio"
-              className="  animate-[moveWorkBtn_2s] text-[#f2fb00] text-xl"
+              className="  animate-[moveWorkBtn_2s] text-[#f2fb00] text-[18px]  border-b-[1.5px] border-b-[#f2fb00] p-1"
             >
-              My Work <FontAwesomeIcon icon={faArrowRight} />
+              My Work <FontAwesomeIcon icon={faSquareArrowUpRight} />
             </a>
           </div>
         </div>

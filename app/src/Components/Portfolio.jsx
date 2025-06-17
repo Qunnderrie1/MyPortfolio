@@ -17,10 +17,10 @@ const Portfolio = () => {
     <div id="portfolio" className="  container mt-20 mx-auto h-fit">
       <Divider />
       <div className="animate-[moveAboutText_1s]">
-        <h1 className="text-white text-center text-[40px] font-bold ">
-          PORT<span className="text-[#f2fb00]">FOLIO</span>
+        <h1 className="text-white text-center text-[20px] font-light">
+          Portfolio
         </h1>
-        <p className="text-white text-center text-[18px] font-light">
+        <p className="m-auto text-white text-[18px] mt-2 font-semibold text-center  ">
           View My Projects
         </p>
 
@@ -29,9 +29,8 @@ const Portfolio = () => {
           triggerOnce={true}
         >
           <div
-            className={`flex gap-4 justify-center mt-16 mx-auto max-lg:flex-wrap ${
-              hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
-            }`}
+            className={`flex gap-4 justify-center mt-16 mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
+              }`}
           >
             <div className="card border-none w-[300px] h-fit">
               <img
