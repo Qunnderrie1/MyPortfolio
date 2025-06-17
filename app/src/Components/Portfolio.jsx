@@ -16,7 +16,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="  container mt-20 mx-auto h-fit">
       <Divider />
-      <div className="animate-[moveAboutText_1s]">
+      <div className="animate-[moveAboutText_2s]">
         <h1 className="text-white text-center text-[20px] font-light">
           Portfolio
         </h1>

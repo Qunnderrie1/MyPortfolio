@@ -66,12 +66,11 @@ const Contact = () => {
         triggerOnce={true}
       >
         <div
-          className={`${
-            hasTriggered ? "animate-[moveContactBox_1s]" : "animate-none"
-          }`}
+          className={`${hasTriggered ? "animate-[moveContactBox_1s]" : "animate-none"
+            }`}
         >
           <h1 className="text-white text-center text-[34px] font-bold ">
-            STAY IN <span className="text-[#f2fb00]">TOUCH</span>
+            Contact Us
           </h1>
           <p className="text-white text-center font-light">
             Fill out the form below
