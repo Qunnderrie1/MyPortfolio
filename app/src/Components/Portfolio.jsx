@@ -27,7 +27,7 @@ const Portfolio = () => {
           triggerOnce={true}
         >
           <div
-            className={`flex gap-4 justify-center  mt-16 mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveSkillCard1_1s]" : "animate-none"
+            className={`flex gap-4 justify-center  mt-16 mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveSkillCardOne_1s]" : "animate-none"
               }`}
           >
             <div className="card border-none w-[360px] h-fit bg-[#171717] text-white">

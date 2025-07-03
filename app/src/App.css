@@ -92,7 +92,7 @@
   }
 }
 
-@keyframes moveSkillCard1 {
+@keyframes moveSkillCardOne {
   0% {
     transform: translateX(-100px);
     opacity: 0;
