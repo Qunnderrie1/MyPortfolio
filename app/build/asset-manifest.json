@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.415aeeb4.css",
-    "main.js": "/MyPortfolio/static/js/main.014e918a.js",
+    "main.css": "/MyPortfolio/static/css/main.cc5aff21.css",
+    "main.js": "/MyPortfolio/static/js/main.32433f7e.js",
     "static/media/mortgageCalculatorImage.png": "/MyPortfolio/static/media/mortgageCalculatorImage.3b20ba71a7196a9424b3.png",
+    "static/media/portfolioImage.png": "/MyPortfolio/static/media/portfolioImage.37ec76849f4c64e51e8f.png",
     "static/media/portfolio.png": "/MyPortfolio/static/media/portfolio.c90f9cf62b36149c709f.png",
     "static/media/todolistImage.png": "/MyPortfolio/static/media/todolistImage.00530df7da84a4a036d3.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.415aeeb4.css.map": "/MyPortfolio/static/css/main.415aeeb4.css.map",
-    "main.014e918a.js.map": "/MyPortfolio/static/js/main.014e918a.js.map"
+    "main.cc5aff21.css.map": "/MyPortfolio/static/css/main.cc5aff21.css.map",
+    "main.32433f7e.js.map": "/MyPortfolio/static/js/main.32433f7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.415aeeb4.css",
-    "static/js/main.014e918a.js"
+    "static/css/main.cc5aff21.css",
+    "static/js/main.32433f7e.js"
   ]
 }

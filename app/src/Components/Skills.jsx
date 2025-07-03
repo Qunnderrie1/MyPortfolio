@@ -42,15 +42,15 @@ function Skills() {
                                 <img src='nodejs.png' width="30px" />
                                 <img src='mongodb.png' width="30px" />
                                 <img src='mysql.png' width="30px" />
-                                <img src='bootstrap.png' width="30px" />
                             </div>
                         </div>
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container animate-[moveHeroText_1s]">
                             <FontAwesomeIcon icon={faTools} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Other Tools</p>
                             <div className='mt-4 flex gap-4'>
-                                <img src='git.png' width="30px" />
-                                <img src='github.png' width="30px" />
+                                <img src='gitImage.png' width="30px" />
+                                <img src='gitHubImage.png' width="30px" />
+                                <img src='vsCodeImage.png' width="30px" />
                             </div>
                         </div>
 
