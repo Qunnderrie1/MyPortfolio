@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Divider from "./Divider";
 import { InView } from "react-intersection-observer";
 
 const About = () => {
@@ -13,15 +12,11 @@ const About = () => {
 
   return (
     <div id="about" className="bg-black mt-10 h-fit pt-6">
-      <Divider />
 
       <div className="flex flex-col">
-        <h1 className="text-white text-center text-[20px] font-light font-sans">
-          About Me
+        <h1 className="text-white text-center text-[30px] font-normal">
+          <span className="text-purple-500">About</span>Me
         </h1>
-        <p className="m-auto text-white text-[18px] mt-2 font-semibold ">
-          A Professional Full Stack Developer
-        </p>
       </div>
 
       <InView onChange={(inView) => handleInView(inView)}>
@@ -32,8 +27,7 @@ const About = () => {
           >
             <div className="container flex flex-col mx-auto">
               <p className="text-white font-normal text-xl text-center leading-[50px] py-3 lg:max-w-[800px] lg:m-auto">
-                A full-stack developer with a passion for building clean, responsive, and user-focused web applications. My journey into tech began with a full-stack web development bootcamp, where I gained hands-on experience working with technologies like JavaScript, Node.js, Express, MongoDB, React, Tailwind CSS, and Git. I’ve since continued to sharpen my skills through personal projects and freelance work. I take pride in writing clean code, solving real problems, and delivering features that enhance user experience and performance. Whether you're an employer looking for a dedicated team member or a client in need of a developer to bring your idea to life, I’m someone who takes ownership, communicates clearly, and stays focused on delivering results that truly add value. I’m driven by growth, collaboration, and the desire to build meaningful digital solutions that make a real impact.
-              </p>
+                Hi, I'm Qunnderrie, a Full Stack Developer who builds real-world projects from the ground up. I have hands-on experience with technologies like React, Node.js, JavaScript, Tailwind CSS, SQL, and more. I'm passionate about creating clean, responsive web applications that solve real problems and deliver great user experiences.              </p>
             </div>
           </div>
         </div>

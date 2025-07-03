@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import mortgageCalculator from "../Images/mortgageCalculator.png";
+import mortgageCalculator from "../Images/mortgageCalculatorImage.png";
 import todoListImage from "../Images/todolistImage.png";
 import portfolio from "../Images/portfolio.png";
-import Divider from "./Divider";
 import { InView } from "react-intersection-observer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Portfolio = () => {
   const [hasTriggered, setHasTriggered] = useState(false);
@@ -14,74 +15,60 @@ const Portfolio = () => {
     }
   };
   return (
-    <div id="portfolio" className="  container mt-20 mx-auto h-fit">
-      <Divider />
-      <div className="animate-[moveAboutText_2s]">
-        <h1 className="text-white text-center text-[20px] font-light">
-          Portfolio
+    <div className=" container mt-40 mx-auto bg-[#000000]">
+      <div className="">
+        <h1 className="text-white text-center text-[30px] font-normal">
+          <span className="text-purple-500">My</span>Projects
         </h1>
-        <p className="m-auto text-white text-[18px] mt-2 font-semibold text-center  ">
-          View My Projects
-        </p>
 
         <InView
           onChange={(inView) => handlePortfolioView(inView)}
           triggerOnce={true}
         >
           <div
-            className={`flex gap-4 justify-center mt-16 mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
+            className={`flex gap-4 justify-center  mt-16 mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
               }`}
           >
-            <div className="card border-none w-[300px] h-fit">
+            <div className="card border-none w-[360px] h-fit bg-[#171717] text-white">
               <img
-                className="w-100 h-[300px] img-fluid"
+                className=" w-[360px] img-fluid  object-contain "
                 src={mortgageCalculator}
                 alt="mortgage Calculator"
               />
-              <div className="card-title">
-                <p className="mt-8 text-[20px] text-center font-semibold">
+              <div className="card-title py-4">
+                <p className="mt-2 text-[20px] text-center font-normal">
                   Mortgage Calculator App
                 </p>
                 <div className="card-body text-center">
-                  <p className="text-[16px] my-2">
-                    A mortgage payment calculator that calculates and displays
-                    monthly payments based on user Inputs, including loan
-                    amount, interest rate, and term length.
-                  </p>
                 </div>
-                <div className="card-footer flex justify-center">
+                <div className=" flex justify-center bg-[#171717] mx-4   ">
                   <a
-                    className="font-bold p-2"
+                    className="font-normal p-2 text-white "
                     href="https://qunnderrie1.github.io/MortgageCalculatorApp/"
                   >
-                    View Project
+                    Live Demo <FontAwesomeIcon icon={faArrowCircleRight} className="px-2" />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="card border-none w-[300px] h-fit">
+            <div className="card border-none w-[360px] h-fit bg-[#171717] text-white">
               <img
-                className="w-100 h-[300px] img-fluid"
-                src={portfolio}
-                alt="portfolio"
+                className=" w-[360px] img-fluid  object-contain "
+                src={mortgageCalculator}
+                alt="mortgage Calculator"
               />
-              <div className="card-title">
-                <p className="mt-8 text-[20px] text-center font-semibold">
-                  Portfolio
+              <div className="card-title py-4">
+                <p className="mt-2 text-[20px] text-center font-normal">
+                  Portfolio Website
                 </p>
                 <div className="card-body text-center">
-                  <p className="text-[16px] my-2">
-                    A portfolio website to showcase my skills, projects, and
-                    background, providing an overview of my expertise an
-                    personal story.
-                  </p>
                 </div>
-                <div className="card-footer flex justify-center">
+                <div className=" flex justify-center bg-[#171717] mx-4   ">
                   <a
-                    className="font-bold p-2"
-                    href="https://myportfolio-tbi2.onrender.com/"
+                    className="font-normal p-2 text-white "
+                    href="https://qunnderrie1.github.io/MortgageCalculatorApp/"
                   >
-                    View Project
+                    Live Demo <FontAwesomeIcon icon={faArrowCircleRight} className="px-2" />
                   </a>
                 </div>
               </div>

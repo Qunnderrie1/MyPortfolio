@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Divider from "./Divider";
 import axios from "axios";
 import { InView } from "react-intersection-observer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const [hasTriggered, setHasTriggered] = useState(false);
@@ -59,7 +60,6 @@ const Contact = () => {
   };
   return (
     <div id="contact" className=" mt-20 h-fit mx-auto ">
-      <Divider />
 
       <InView
         onChange={(inView) => handleContactView(inView)}
@@ -69,8 +69,8 @@ const Contact = () => {
           className={`${hasTriggered ? "animate-[moveContactBox_1s]" : "animate-none"
             }`}
         >
-          <h1 className="text-white text-center text-[34px] font-bold ">
-            Contact Us
+          <h1 className="text-white text-center text-[30px] font-normal">
+            <span className="text-purple-500">Contact</span>Us
           </h1>
           <p className="text-white text-center font-light">
             Fill out the form below
@@ -114,9 +114,9 @@ const Contact = () => {
             </div>
             <button
               onClick={handleMessage}
-              className=" w-100 bg-[#f2fb00] h-[40px] font-bold"
+              className=" w-100 bg-purple-500 h-[40px] font-normal text-white"
             >
-              {confirmMessage}
+              <FontAwesomeIcon icon={faEnvelope} /> {confirmMessage}
             </button>
           </form>
         </div>
