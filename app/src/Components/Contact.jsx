@@ -70,7 +70,7 @@ const Contact = () => {
             }`}
         >
           <h1 className="text-white text-center text-[30px] font-normal">
-            <span className="text-purple-500">Contact</span>Us
+            <span className="text-purple-500">Contact</span>Me
           </h1>
           <p className="text-white text-center font-light">
             Fill out the form below

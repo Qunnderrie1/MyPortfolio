@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { InView } from 'react-intersection-observer';
-import { faArrowRight, faArrowUpRightFromSquare, faComputer, faDownload, faEnvelope, faMobileAndroid, faPen, faPenFancy, faPhone, faSquareArrowUpRight, faWebAwesome } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faArrowUpRightFromSquare, faComputer, faDownload, faEnvelope, faMobileAndroid, faPen, faPenFancy, faPhone, faServer, faSquareArrowUpRight, faTools, faWebAwesome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Skills() {
 
@@ -20,11 +20,11 @@ function Skills() {
                 <h1 className='text-white text-[30px] font-normal pb-2 text-center '> <span className="text-purple-500">My</span>Skills</h1>            </div>
 
 
-            <div className='container flex flex-col'>
+            <div id='skills' className='container flex flex-col'>
                 <InView onChange={(inView) => handleInView(inView)}>
                     <div className="mt-[150px] flex flex-wrap gap-4 ">
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container  animate-[moveHeroText_1s]">
-                            <FontAwesomeIcon icon={faComputer} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3" />
+                            <FontAwesomeIcon icon={faComputer} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Frontend Development</p>
                             <div className='mt-4 flex gap-4'>
                                 <img src='react.png' width="30px" />
@@ -36,7 +36,7 @@ function Skills() {
                             </div>
                         </div>
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container animate-[moveHeroText_1s]">
-                            <FontAwesomeIcon icon={faMobileAndroid} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3" />
+                            <FontAwesomeIcon icon={faServer} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Backend Development</p>
                             <div className='mt-4 flex gap-4'>
                                 <img src='nodejs.png' width="30px" />
@@ -46,7 +46,7 @@ function Skills() {
                             </div>
                         </div>
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container animate-[moveHeroText_1s]">
-                            <FontAwesomeIcon icon={faPenFancy} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3" />
+                            <FontAwesomeIcon icon={faTools} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Other Tools</p>
                             <div className='mt-4 flex gap-4'>
                                 <img src='git.png' width="30px" />

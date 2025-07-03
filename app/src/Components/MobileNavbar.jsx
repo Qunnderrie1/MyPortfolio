@@ -25,44 +25,44 @@ const MobileNavbar = ({ open }) => {
           }`}
       >
         <div className="flex flex-col justify-center items-center  gap-10">
-          <Link to="/"
+          <a
             onClick={handleMobileNav}
             className="animate-[moveMobileMenuText_1s_ease-in-out] text-purple-500 font-normal  text-xl"
             href="#home"
           >
             Home
-          </Link>
-          <Link to="/portfolio"
+          </a>
+          <a
             onClick={handleMobileNav}
             className="animate-[moveMobileMenuText_1.3s_ease-in-out] text-white text-xl"
             href="#portfolio"
           >
             Portfolio
-          </Link>
-          <Link to="/skills"
+          </a>
+          <a
             onClick={handleMobileNav}
             className="animate-[moveMobileMenuText_1.6s_ease-in-out] text-white text-xl "
             href="#about"
           >
             Skills
-          </Link>
-          <Link to="/about"
+          </a>
+          <a
             onClick={handleMobileNav}
             className="animate-[moveMobileMenuText_1.6s_ease-in-out] text-white text-xl "
             href="#about"
           >
             About
-          </Link>
-          <Link to="/contact"
+          </a>
+          <a
             onClick={handleMobileNav}
             className="animate-[moveMobileMenuText_1.9s_ease-in-out] text-white text-xl "
             href="#contact"
           >
             Contact
-          </Link>
+          </a>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

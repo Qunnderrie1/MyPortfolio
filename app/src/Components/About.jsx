@@ -11,7 +11,7 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="bg-black mt-10 h-fit pt-6">
+    <div id="about" className="bg-black mt-[250px] h-fit pt-6">
 
       <div className="flex flex-col">
         <h1 className="text-white text-center text-[30px] font-normal">
@@ -26,7 +26,7 @@ const About = () => {
               } `}
           >
             <div className="container flex flex-col mx-auto">
-              <p className="text-white font-normal text-xl text-center leading-[50px] py-3 lg:max-w-[800px] lg:m-auto">
+              <p className="text-white font-light text-xl text-center leading-[50px] py-3 lg:max-w-[800px] lg:m-auto">
                 Hi, I'm Qunnderrie, a Full Stack Developer who builds real-world projects from the ground up. I have hands-on experience with technologies like React, Node.js, JavaScript, Tailwind CSS, SQL, and more. I'm passionate about creating clean, responsive web applications that solve real problems and deliver great user experiences.              </p>
             </div>
           </div>
