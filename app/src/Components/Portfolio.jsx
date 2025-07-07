@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import mortgageCalculator from "../Images/mortgageCalculatorImage.png";
-import portfolioImage from "../Images/portfolioImage.png";
-import todoListImage from "../Images/todolistImage.png";
-import portfolio from "../Images/portfolio.png";
+import mortgageCalculator from "../Images/mortgageCalculator_mockup.png";
+import portfolioImage from "../Images/portfolio_mockup.png";
+import jobTrackerImage from "../Images/jobtracker_mockup.png";
 import { InView } from "react-intersection-observer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -36,13 +35,15 @@ const Portfolio = () => {
                 src={mortgageCalculator}
                 alt="mortgage Calculator"
               />
-              <div className="card-title py-4">
-                <p className="mt-2 text-[18px] text-center font-normal">
-                  Mortgage Calculator App
+              <div className="card-title py-4 container">
+                <p className="mt-2 text-[18px] text-left font-normal">
+                  Mortgage Calculator
                 </p>
-                <div className="card-body text-center">
+                <div className="card-body px-0 text-center">
+                  <p className="text-left font-light text-[14px]">Device Support: Web and Mobile Browsers</p>
+                  <p className="text-left text-[14px]">Role: Frontend Developer</p>
                 </div>
-                <div className=" flex justify-center bg-[#171717] mx-4   ">
+                <div className="flex  bg-[#171717] px-0   ">
                   <a
                     className="font-normal p-2 text-white "
                     href="https://qunnderrie1.github.io/MortgageCalculatorApp/"
@@ -58,16 +59,42 @@ const Portfolio = () => {
                 src={portfolioImage}
                 alt="mortgage Calculator"
               />
-              <div className="card-title py-4">
-                <p className="mt-2 text-[18px] text-center font-normal">
+              <div className="card-title py-4 container">
+                <p className="mt-2 text-[18px] text-left font-normal">
                   Portfolio Website
                 </p>
-                <div className="card-body text-center">
+                <div className="card-body px-0 text-center">
+                  <p className="text-left font-light text-[14px]">Device Support: Web and Mobile Browsers</p>
+                  <p className="text-left text-[14px]">Role: Frontend Developer</p>
                 </div>
-                <div className=" flex justify-center bg-[#171717] mx-4   ">
+                <div className=" flex bg-[#171717] px-0  ">
                   <a
                     className="font-normal p-2 text-white "
                     href="https://qunnderrie1.github.io/MyPortfolio/"
+                  >
+                    Live Demo <FontAwesomeIcon icon={faArrowCircleRight} className="px-2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="card border-none w-[360px] h-fit bg-[#171717] text-white">
+              <img
+                className=" w-[360px] img-fluid  object-contain "
+                src={jobTrackerImage}
+                alt="mortgage Calculator"
+              />
+              <div className="card-title py-4 container">
+                <p className="mt-2 text-[18px] text-left font-normal">
+                  Job Tracker
+                </p>
+                <div className="card-body px-0 text-center">
+                  <p className="text-left font-light text-[14px]">Device Support: Web and Mobile Browsers</p>
+                  <p className="text-left text-[14px]">Role: Full Stack Developer</p>
+                </div>
+                <div className=" flex  bg-[#171717] px-0   ">
+                  <a
+                    className="font-normal p-2 text-white "
+                    href="https://jobtrackerwebapp.onrender.com/"
                   >
                     Live Demo <FontAwesomeIcon icon={faArrowCircleRight} className="px-2" />
                   </a>
