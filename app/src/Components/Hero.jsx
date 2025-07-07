@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="home" className="hero flex  flex-col w-full container relative justify-center items-center  ">
       <div className=" flex text-center w-full max-xl:flex-col max-xl:justify-center ">
         <div className="flex flex-col items-center justify-center text-center mt-[200px] max-w-[800px] mx-auto ">
-          <p className="animate-[moveHeroText_2s]   text-4xl text-white font-light max-sm:text-center  ">
+          <p className="animate-[moveHeroText_2s]  text-4xl text-white font-light max-sm:text-center  ">
             Building Digital
           </p>
 

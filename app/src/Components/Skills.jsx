@@ -27,144 +27,34 @@ function Skills() {
                             <FontAwesomeIcon icon={faComputer} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Frontend Development</p>
                             <div className='mt-4 flex gap-4'>
-                                <img src='react.png' width="30px" />
-                                <img src='javascript.png' width="30px" />
-                                <img src='redux.png' width="30px" />
-                                <img src='bootstrap.png' width="30px" />
-                                <img src='tailwindcss.png' width="30px" />
+                                <img alt='reactIcon' src='react.png' width="30px" />
+                                <img alt='javasciptIcon' src='javascript.png' width="30px" />
+                                <img alt='reduxIcon' src='redux.png' width="30px" />
+                                <img alt='bootstrapIcon' src='bootstrap.png' width="30px" />
+                                <img alt='tailwindcssIcon' src='tailwindcss.png' width="30px" />
                             </div>
                         </div>
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container animate-[moveHeroText_1s]">
                             <FontAwesomeIcon icon={faServer} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Backend Development</p>
                             <div className='mt-4 flex gap-4'>
-                                <img src='nodejs.png' width="30px" />
-                                <img src='mongodb.png' width="30px" />
-                                <img src='mysql.png' width="30px" />
+                                <img alt='nodejsIcon' src='nodejs.png' width="30px" />
+                                <img alt='mongodbIcon' src='mongodb.png' width="30px" />
+                                <img alt='mysqlIcon' src='mysql.png' width="30px" />
                             </div>
                         </div>
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container animate-[moveHeroText_1s]">
                             <FontAwesomeIcon icon={faTools} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Other Tools</p>
                             <div className='mt-4 flex gap-4'>
-                                <img src='gitImage.png' width="30px" />
-                                <img src='gitHubImage.png' width="30px" />
-                                <img src='vsCodeImage.png' width="30px" />
+                                <img alt='gitIcon' src='gitImage.png' width="30px" />
+                                <img alt='gitHubIcon' src='gitHubImage.png' width="30px" />
+                                <img alt='vsCodeIcon' src='vsCodeImage.png' width="30px" />
                             </div>
                         </div>
 
                     </div>
-                    {/* <div className={`flex flex-wrap w-full   ${hasTriggered ? "animate-[moveSkillsSection_3s]" : "animate-none"
-                        } `}>
-                        <p className='text-white text-2xl'>Frontend Technologies</p>
-                        <div className='flex'>
 
-                            <div className=' flex items-center flex-col justify-center p-4'>
-                                <div className='bg-neutral-950 p-4 w-[200px] rounded-lg'>
-                                    <div className='flex items-center justify-center gap-4  '>
-                                        <img src='react.png' width="50px" />
-                                        <p className='text-white text-[20px]'>ReactJS</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=' flex items-center flex-col justify-center p-4'>
-                                <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                    <div className='flex items-center justify-center gap-4  '>
-                                        <img src='javascript.png' width="50px" />
-                                        <p className='text-white text-[20px]'>JavaScript</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=' flex items-center flex-col justify-center p-4'>
-                                <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                    <div className='flex items-center justify-center gap-4  '>
-                                        <img src='tailwindcss.png' width="50px" />
-                                        <p className='text-white text-[20px]'>Tailwind </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=' flex items-center flex-col justify-center p-4'>
-                                <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                    <div className='flex items-center justify-center gap-4  '>
-                                        <img src='bootstrap.png' width="50px" />
-                                        <p className='text-white text-[20px]'>Bootstrap</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=' flex items-center flex-col justify-center p-4'>
-                                <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                    <div className='flex items-center justify-center gap-4  '>
-                                        <img src='redux.png' width="50px" />
-                                        <p className='text-white text-[20px]'>Redux</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=' flex items-center flex-col justify-center p-4'>
-                                <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                    <div className='flex items-center justify-center gap-4  '>
-                                        <img src='reactnative.png' width="50px" />
-                                        <p className='text-white text-[20px]'>React Native</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p className='text-white text-2xl'>Backend Technologies</p>
-
-
-                        <div className=' flex items-center flex-col justify-center p-4'>
-                            <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                <div className='flex items-center justify-center gap-4  '>
-                                    <img src='nodejs.png' width="50px" />
-                                    <p className='text-white text-[20px]'>Node </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className=' flex items-center flex-col justify-center p-4'>
-                            <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                <div className='flex items-center justify-center gap-4  '>
-                                    <img src='mongodb.png' width="50px" />
-                                    <p className='text-white text-[20px]'>MongoDB</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className=' flex items-center flex-col justify-center p-4'>
-                            <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                <div className='flex items-center justify-center gap-4  '>
-                                    <img src='git.png' width="50px" />
-                                    <p className='text-white text-[20px]'>Git</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className=' flex items-center flex-col justify-center p-4'>
-                            <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                <div className='flex items-center justify-center gap-4  '>
-                                    <img src='figma.png' width="50px" />
-                                    <p className='text-white text-[20px]'>Figma</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className=' flex items-center flex-col justify-center p-4'>
-                            <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                <div className='flex items-center justify-center gap-4  '>
-                                    <img src='github.png' width="50px" />
-                                    <p className='text-white text-[20px]'>Github</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className=' flex items-center flex-col justify-center p-4'>
-                            <div className='bg-neutral-950 p-4 w-[200px] rounded-lg '>
-                                <div className='flex items-center justify-center gap-4  '>
-                                    <img src='mysql.png' width="50px" />
-                                    <p className='text-white text-[20px]'>My SQL</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
 
                 </InView>
             </div>

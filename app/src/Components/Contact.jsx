@@ -114,7 +114,7 @@ const Contact = () => {
             </div>
             <button
               onClick={handleMessage}
-              className=" w-100 bg-purple-500 h-[40px] font-normal text-white"
+              className=" w-100 bg-purple-500 h-[40px] font-normal text-white rounded-md"
             >
               <FontAwesomeIcon icon={faEnvelope} /> {confirmMessage}
             </button>
