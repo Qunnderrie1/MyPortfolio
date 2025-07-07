@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.efca4ff4.css",
-    "main.js": "/MyPortfolio/static/js/main.629d7e5f.js",
-    "static/media/mortgageCalculatorImage.png": "/MyPortfolio/static/media/mortgageCalculatorImage.3b20ba71a7196a9424b3.png",
-    "static/media/portfolioImage.png": "/MyPortfolio/static/media/portfolioImage.37ec76849f4c64e51e8f.png",
-    "static/media/portfolio.png": "/MyPortfolio/static/media/portfolio.c90f9cf62b36149c709f.png",
-    "static/media/todolistImage.png": "/MyPortfolio/static/media/todolistImage.00530df7da84a4a036d3.png",
+    "main.css": "/MyPortfolio/static/css/main.4f8a6fcd.css",
+    "main.js": "/MyPortfolio/static/js/main.969877ba.js",
+    "static/media/mortgageCalculator_mockup.png": "/MyPortfolio/static/media/mortgageCalculator_mockup.acb9da4ba45edbe7d4f8.png",
+    "static/media/jobtracker_mockup.png": "/MyPortfolio/static/media/jobtracker_mockup.c96d8613f0732830c877.png",
+    "static/media/portfolio_mockup.png": "/MyPortfolio/static/media/portfolio_mockup.4905227745472e1dae16.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.efca4ff4.css.map": "/MyPortfolio/static/css/main.efca4ff4.css.map",
-    "main.629d7e5f.js.map": "/MyPortfolio/static/js/main.629d7e5f.js.map"
+    "main.4f8a6fcd.css.map": "/MyPortfolio/static/css/main.4f8a6fcd.css.map",
+    "main.969877ba.js.map": "/MyPortfolio/static/js/main.969877ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.efca4ff4.css",
-    "static/js/main.629d7e5f.js"
+    "static/css/main.4f8a6fcd.css",
+    "static/js/main.969877ba.js"
   ]
 }
