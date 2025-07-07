@@ -72,24 +72,24 @@ const Navbar = () => {
             </a>
           </div>
           <p className="z-1 rounded text-white font-normals border-none w-fit ">
-            Qunnderrie <span className="text-purple-600 text-xl font-semibold">Portfolio</span>
+
           </p>
         </div>
 
 
         <div className="flex gap-10">
-          <Link to="/" className="text-purple-500 font-bold" href="#home">
+          <a to="#home" className="text-purple-500 font-bold" href="#home">
             Home
-          </Link>
-          <Link to="/portfolio" className="text-white" href="#portfolio">
+          </a>
+          <a to="#portfolio" className="text-white" href="#portfolio">
             Portfolio
-          </Link>
-          <Link to="/about" className="text-white " href="#about">
+          </a>
+          <a to="#about" className="text-white " href="#about">
             About
-          </Link>
-          <Link to="/contact" className="text-white " href="#contact">
+          </a>
+          <a to="#contact" className="text-white " href="#contact">
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

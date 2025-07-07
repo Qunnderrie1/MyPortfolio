@@ -59,7 +59,7 @@ const Contact = () => {
     console.log("Sending Message.......");
   };
   return (
-    <div id="contact" className=" mt-20 h-fit mx-auto ">
+    <div id="contact" className=" mt-20 h-fit w-[400px] mx-auto ">
 
       <InView
         onChange={(inView) => handleContactView(inView)}
@@ -78,7 +78,7 @@ const Contact = () => {
           <form
             action="POST"
             onSubmit={handleSubmit}
-            className=" flex flex-col gap-4 max-w-[400px] justify-center mx-auto mt-[40px] "
+            className=" flex flex-col gap-4 max-w-full justify-center mx-auto mt-[40px] "
           >
             <div className="flex flex-col form-control">
               <input

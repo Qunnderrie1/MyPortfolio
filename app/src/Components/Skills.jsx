@@ -14,15 +14,15 @@ function Skills() {
         console.log(hasTriggered)
     };
     return (
-        <div className='bg-black mt-20'>
+        <div className='bg-black mt-20 container'>
 
             <div>
-                <h1 className='text-white text-[30px] font-normal pb-2 text-center '> <span className="text-purple-500">My</span>Skills</h1>            </div>
+                <h1 className='text-white text-[30px] font-normal pb-2 text-left max-md:text-center '> <span className="text-purple-500">My</span>Skills</h1>            </div>
 
 
             <div id='skills' className='container flex flex-col'>
                 <InView onChange={(inView) => handleInView(inView)}>
-                    <div className="mt-[150px] flex flex-wrap gap-4 ">
+                    <div className="mt-[50px] flex flex-wrap gap-4 ">
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container  animate-[moveHeroText_1s]">
                             <FontAwesomeIcon icon={faComputer} className="text-white text-xl bg-purple-600 p-2 rounded-full mt-3 w-[25px] flex" />
                             <p className="text-white font-normal text-1xl text-left  pt-3">Frontend Development</p>
@@ -32,7 +32,6 @@ function Skills() {
                                 <img src='redux.png' width="30px" />
                                 <img src='bootstrap.png' width="30px" />
                                 <img src='tailwindcss.png' width="30px" />
-                                <img src='reactnative.png' width="30px" />
                             </div>
                         </div>
                         <div className="bg-[#171717] w-[400px] h-[200px] rounded-lg shadow-lg container animate-[moveHeroText_1s]">

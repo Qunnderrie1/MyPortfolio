@@ -11,23 +11,23 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="bg-black mt-[250px] h-fit pt-6">
+    <div id="about" className="bg-black mt-[250px] text-left h-fit pt-6 max-md:text-center  container">
 
       <div className="flex flex-col">
-        <h1 className="text-white text-center text-[30px] font-normal">
-          <span className="text-purple-500">About</span>Me
+        <h1 className="text-white text-[30px] font-normal">
+          <span className="text-purple-500 ">About</span>Me
         </h1>
       </div>
 
       <InView onChange={(inView) => handleInView(inView)}>
-        <div className="container max-lg:w-100  ">
+        <div className="container max-lg:w-200  ">
           <div
             className={`flex mt-4 max-lg:flex-col ${hasTriggered ? "animate-[moveAboutText_1s]" : "animate-none"
               } `}
           >
-            <div className="container flex flex-col mx-auto">
-              <p className="text-white font-light text-xl text-center leading-[50px] py-3 lg:max-w-[800px] lg:m-auto">
-                Hi, I'm Qunnderrie, a Full Stack Developer who builds real-world projects from the ground up. I have hands-on experience with technologies like React, Node.js, JavaScript, Tailwind CSS, SQL, and more. I'm passionate about creating clean, responsive web applications that solve real problems and deliver great user experiences.              </p>
+            <div className=" flex flex-col">
+              <p className="text-white font-light text-xl text-left leading-[50px] py-3 lg:max-w-[900px] lg:m-auto max-md:text-center">
+                I'm a passionate full stack web developer with a strong foundation in building responsive, user-focused applications using modern technologies like React, Node.js, Express, MongoDB, and SQL. I enjoy solving real-world problems through clean, efficient code and bringing ideas to life from concept to deployment. Whether it’s creating dynamic front-end interfaces or building robust back-end systems, I’m always eager to learn, adapt, and grow. My goal is to develop software that makes a positive impact, and I’m excited about collaborating on meaningful projects that push the boundaries of what's possible on the web.</p>
             </div>
           </div>
         </div>

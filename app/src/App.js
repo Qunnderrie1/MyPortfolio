@@ -14,12 +14,15 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <Hero />
-      <About />
-      <Portfolio />
-      <Skills />
-      <Contact />
-      <Footer />
+      <div className="flex flex-col gap-8">
+        <Hero />
+        <About />
+        <Portfolio />
+        <Skills />
+        <Contact />
+        <Footer />
+      </div>
+
 
     </div>
   );

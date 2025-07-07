@@ -18,7 +18,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className=" container mt-40 mx-auto bg-[#000000]">
       <div className="">
-        <h1 className="text-white text-center text-[30px] font-normal">
+        <h1 className="text-white text-left max-md:text-center text-[30px] font-normal">
           <span className="text-purple-500">My</span>Projects
         </h1>
 
@@ -27,7 +27,7 @@ const Portfolio = () => {
           triggerOnce={true}
         >
           <div
-            className={`flex gap-4 justify-center  mt-16 mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveSkillCardOne_1s]" : "animate-none"
+            className={`flex gap-4 mt-16 max-md:justify-center mx-auto max-lg:flex-wrap ${hasTriggered ? "animate-[moveSkillCardOne_1s]" : "animate-none"
               }`}
           >
             <div className="card border-none w-[360px] h-fit bg-[#171717] text-white">
