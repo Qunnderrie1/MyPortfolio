@@ -17,7 +17,7 @@ const Hero = () => {
           <p className="animate-[moveHeroText_5s] text-white  leading-[50px] text-xl font-light">From concept to code. Let's Create <span className="font-normal text-purple-500 text-2xl" >Something Great.</span></p>
           <div className=" lg:justify-start lg:px-0  mt-14 items-center w-full mx-auto  ">
             <div className="flex  items-center justify-center gap-8 max-sm:flex-col ">
-              <a href="./Qunnderrie_Full_Stack_Developer.pdf" download>
+              <a href="./Qunnderrie_Software_Developer_Developer_2026_Resume.pdf" download>
                 <button className="text-white animate-[moveResumeBtn_2s]  py-1 max-lg:w-60 w-[180px]  text-[18px]  bg-purple-500  ">
                   <FontAwesomeIcon icon={faDownload} /> Download CV
                 </button>
